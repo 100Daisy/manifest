@@ -92,7 +92,6 @@
   <project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="ginkgo" />
   <project path="device/qcom/vendor-common" name="device_qcom_vendor-common" remote="ginkgo" />
   <project path="device/qcom/wlan" name="device_qcom_wlan" remote="ginkgo" />
-  <project path="device/xiaomi/ginkgo" name="device_xiaomi_ginkgo" remote="ginkgo" />
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="ginkgo" />
   <project path="external/chromium-webview" name="platform/external/chromium-webview" remote="aosp" />
   <project path="external/exfat" name="relan/exfat" remote="github" revision="master" />
@@ -116,9 +115,6 @@
   </project>
   <project path="hardware/qcom/media" name="hardware_qcom_media" remote="ginkgo" >
     <linkfile dest="vendor/qcom/defs/product-defs/vendor/video-product.mk" src="product.mk"/>
-  </project>
-  <project path="kernel/msm-4.14" name="kernel_msm-4.14" remote="ginkgo" >
-    <linkfile dest="kernel/msm-4.14/Android.bp" src="Androidbp"/>
   </project>
   <project path="packages/apps/Launcher3" name="packages_apps_Launcher3" remote="ginkgo" />
   <project path="packages/apps/MusicFX" name="packages_apps_MusicFX" remote="ginkgo" />
